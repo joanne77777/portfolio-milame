@@ -3,7 +3,7 @@ export const CONFIG = {
   // Site Settings
   // ---------------------------------------------------------------------------
   site: {
-    url: "http://joanne777.alwaysdata.net",
+    url: "https://portfolio-milame.milamekennyj7777777.workers.dev",
     locale: "fr_FR",
     twitterHandle: "@joannekenny7777",
   },

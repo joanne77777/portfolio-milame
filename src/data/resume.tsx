@@ -6,7 +6,7 @@ import { Java } from "@/components/ui/svgs/java";
 export const DATA = {
   name: "Milame Ngou Joanne Kenny",
   initials: "MK",
-  url: "http://joanne777.alwaysdata.net",
+  url: "https://portfolio-milame.milamekennyj7777777.workers.dev",
   location: "Libreville, Gabon",
   locationLink: "https://www.google.com/maps/place/libreville+gabon",
   description:
