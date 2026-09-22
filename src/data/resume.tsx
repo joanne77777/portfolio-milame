@@ -1,0 +1,275 @@
+import { Icons } from "@/components/icons";
+import { House } from "lucide-react";
+import { Python } from "@/components/ui/svgs/python";
+import { Java } from "@/components/ui/svgs/java";
+
+export const DATA = {
+  name: "Milame Ngou Joanne Kenny",
+  initials: "MK",
+  url: "http://joanne777.alwaysdata.net",
+  location: "Libreville, Gabon",
+  locationLink: "https://www.google.com/maps/place/libreville+gabon",
+  description:
+    "Développeur Informatique — ERP, Applications métiers & Données",
+  summary:
+    "Développeur informatique diplômé en génie logiciel, avec une expérience professionnelle au sein de Rougier Gabon, entreprise du secteur forestier. Expérience en développement d'applications mobiles, personnalisation d'ERP Odoo, gestion de données et développement de solutions métiers. Intérêt particulier pour les systèmes d'information appliqués à la gestion forestière, la traçabilité, la gestion des ressources naturelles et la digitalisation des processus.",
+  avatarUrl: "/photos/moi.png",
+  ogImage: "/og_image.png",
+  sections: {
+    about: { order: 1, enabled: true, heading: "À propos" },
+    work: { order: 2, enabled: true, heading: "Expérience", presentLabel: "Présent" },
+    education: { order: 3, enabled: true, heading: "Formation" },
+    skills: { order: 4, enabled: true, heading: "Compétences" },
+    projects: {
+      order: 5, enabled: true,
+      label: "Projets",
+      heading: "Quelques réalisations",
+      text: "Applications mobiles, modules Odoo et solutions métiers développés dans le cadre de mes expériences professionnelles.",
+    },
+    hackathons: {
+      order: 7, enabled: false,
+      label: "Hackathons",
+      heading: "Hackathons",
+      text: "",
+    },
+    photos: {
+      order: 6, enabled: false,
+      heading: "Photos",
+    },
+    contact: {
+      order: 8, enabled: true,
+      label: "Contact",
+      heading: "Me contacter",
+      text: "Une question ou un projet ? Écrivez-moi par email, je vous répondrai dès que possible.",
+    },
+  },
+  photos: [] as { src: string; alt: string }[],
+  skills: [
+    { name: "Python", icon: Python },
+    { name: "Java / Kotlin", icon: Java },
+    { name: "HTML & CSS / JavaScript" },
+    { name: "PHP / Laravel" },
+    { name: "Flutter / Dart" },
+    { name: "Odoo" },
+    { name: "Modules Odoo" },
+    { name: "API REST / JSON-RPC" },
+    { name: "Architecture applicative" },
+    { name: "Automatisation" },
+    { name: "Analyse & traitement des données" },
+  ],
+  navbar: [
+    { href: "/", icon: House, label: "Home" },
+  ],
+  contact: {
+    email: "milamekennyj7777777@gmail.com",
+    tel: "+241 66 06 74 95",
+    social: {
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/joanne-kenny-milame-ngou-b0247b42b",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://x.com/joannekenny7777",
+        icon: Icons.x,
+        navbar: true,
+      },
+      Facebook: {
+        name: "Facebook",
+        url: "https://www.facebook.com/share/14q9F8f3khL",
+        icon: Icons.facebook,
+        navbar: true,
+      },
+      WhatsApp: {
+        name: "WhatsApp",
+        url: "https://wa.me/24166067495",
+        icon: Icons.whatsapp,
+        navbar: true,
+      },
+      email: {
+        name: "Send Email",
+        url: "mailto:milamekennyj7777777@gmail.com",
+        icon: Icons.email,
+        navbar: true,
+      },
+    },
+  },
+
+  work: [
+    {
+      company: "Rougier Gabon",
+      href: "https://www.rougier.com",
+      badges: [],
+      location: "Libreville",
+      title: "Développeur Odoo",
+      logoUrl: "/photos/rougier.png",
+      start: "Mars 2025",
+      end: "Août 2026",
+      description:
+        "Développement et maintenance de solutions métiers sous Odoo. Développement d'une application mobile de gestion et de suivi de la consommation de carburant, ainsi que d'applications mobiles pour le pointage et la gestion des congés. Modules personnalisés pour la gestion des équipements et opérations de maintenance, fonctionnalités RH (employés, contrats, congés, présences), automatisation et export de données Odoo vers Excel. Participation à la digitalisation des processus et conception de solutions liées à la traçabilité des opérations forestières.",
+    },
+    {
+      company: "Keva Initiative",
+      href: "#",
+      badges: [],
+      location: "Libreville",
+      title: "Développeur",
+      logoUrl: "/photos/keva.jpg",
+      start: "Juin 2024",
+      end: "Sept 2024",
+      description:
+        "Développement du site web de Keva. Conception d'une application mobile permettant de faire des alertes sur les mangroves.",
+    },
+    {
+      company: "Top Science",
+      href: "#",
+      badges: [],
+      location: "Libreville",
+      title: "Développeur mobile",
+      logoUrl: "/photos/top-science.jpg",
+      start: "Juin 2023",
+      end: "Sept 2023",
+      description:
+        "Numérisation de livres et conception d'une application mobile permettant la vente en ligne de livres numériques.",
+    },
+  ],
+  education: [
+    {
+      school: "INPTIC — Licence professionnelle",
+      href: "https://www.inptic.ga",
+      degree: "Licence professionnelle Génie Informatique — Institut National de la Poste, des Technologies de l'Information et de la Communication",
+      logoUrl: "/photos/inptic.jpg",
+      start: "2023",
+      end: "2024",
+    },
+    {
+      school: "INPTIC — DTS",
+      href: "https://www.inptic.ga",
+      degree: "DTS Génie Informatique — Institut National de la Poste, des Technologies de l'Information et de la Communication",
+      logoUrl: "/photos/inptic.jpg",
+      start: "2022",
+      end: "2023",
+    },
+    {
+      school: "Mont Seigneur Bessieux",
+      href: "#",
+      degree: "Bac série C",
+      logoUrl: "/photos/bessieux.jpg",
+      start: "2018",
+      end: "2019",
+    },
+  ],
+  projects: [
+    {
+      title: "Système d'intégration SNTBG / Global Origin",
+      href: "#",
+      dates: "Rougier Gabon — Traçabilité forestière / API / Données",
+      active: true,
+      description:
+        "Développement d'une solution d'intégration entre le système d'information de l'entreprise et la plateforme nationale SNTBG afin d'automatiser la transmission et le suivi des données liées aux opérations forestières.",
+      technologies: ["Python", "API REST", "JSON", "PostgreSQL", "Cron"],
+      links: [],
+      image: "/photos/rougier.png",
+      video: "",
+    },
+    {
+      title: "ERP de gestion et de traçabilité forestière",
+      href: "#",
+      dates: "Rougier Gabon — ERP / Gestion forestière",
+      active: true,
+      description:
+        "Conception et développement de fonctionnalités ERP destinées à la gestion des opérations forestières, notamment le suivi des arbres, grumes, contrats, livraisons, transformations et données de production.",
+      technologies: ["Odoo", "Python", "PostgreSQL", "XML", "JavaScript", "SQL"],
+      links: [],
+      image: "/photos/rougier.png",
+      video: "",
+    },
+    {
+      title: "Application mobile de gestion du carburant",
+      href: "#",
+      dates: "Rougier Gabon — Application mobile / Gestion de ressources",
+      active: true,
+      description:
+        "Développement d'une application mobile destinée à digitaliser les demandes, distributions et retours de carburant, avec synchronisation des opérations avec l'ERP de l'entreprise. Couvre la demande de carburant, l'identification de l'équipement, la gestion des quantités, le compteur, le magasin/emplacement, la synchronisation, le fonctionnement hors ligne et l'historique.",
+      technologies: ["Flutter", "Dart", "SQLite", "Odoo", "JSON-RPC", "API", "Android"],
+      links: [],
+      image: "/photos/rougier.png",
+      video: "",
+    },
+    {
+      title: "Application mobile de pointage et présence",
+      href: "#",
+      dates: "Rougier Gabon — RH / Application mobile",
+      active: true,
+      description:
+        "Développement d'une application mobile permettant de digitaliser le pointage des employés et de synchroniser les informations avec le système RH de l'entreprise.",
+      technologies: ["Flutter", "Dart", "SQLite", "Odoo", "JSON-RPC", "API"],
+      links: [],
+      image: "/photos/rougier.png",
+      video: "",
+    },
+    {
+      title: "Application mobile de gestion des congés",
+      href: "#",
+      dates: "Rougier Gabon — RH / ERP",
+      active: true,
+      description:
+        "Développement d'une application mobile permettant aux employés de consulter et gérer leurs demandes de congés, avec intégration au module RH de l'ERP.",
+      technologies: ["Flutter", "Dart", "Odoo", "API / JSON-RPC", "SQLite"],
+      links: [],
+      image: "/photos/rougier.png",
+      video: "",
+    },
+    {
+      title: "Module de gestion des équipements et maintenance",
+      href: "#",
+      dates: "Rougier Gabon — ERP / Maintenance",
+      active: true,
+      description:
+        "Développement et personnalisation d'un module Odoo destiné au suivi des équipements, de leurs emplacements, des opérations de maintenance et des interventions associées.",
+      technologies: ["Odoo", "Python", "PostgreSQL", "XML", "JavaScript"],
+      links: [],
+      image: "/photos/rougier.png",
+      video: "",
+    },
+    {
+      title: "Automatisation et export des données Odoo vers Excel",
+      href: "#",
+      dates: "Rougier Gabon — Data / Automatisation",
+      active: true,
+      description:
+        "Développement d'outils permettant d'extraire et de structurer les données issues d'Odoo afin de faciliter leur analyse et leur exploitation dans Excel.",
+      technologies: ["Odoo", "Python", "PostgreSQL", "SQL", "Excel", "Power Query"],
+      links: [],
+      image: "/photos/rougier.png",
+      video: "",
+    },
+    {
+      title: "Plateforme de vente de livres numériques",
+      href: "#",
+      dates: "Top Science — Application mobile / E-commerce",
+      active: false,
+      description:
+        "Conception d'une application mobile permettant la consultation et la commercialisation de livres numériques.",
+      technologies: ["Flutter / Dart", "API", "Base de données", "Android"],
+      links: [],
+      image: "/photos/top-science.jpg",
+      video: "",
+    },
+    {
+      title: "Plateforme web et application de suivi des mangroves",
+      href: "#",
+      dates: "Keva Initiative — Environnement / Web / Mobile",
+      active: false,
+      description:
+        "Développement du site web de Keva Initiative ainsi que d'une application mobile permettant de signaler et suivre des informations relatives aux mangroves.",
+      technologies: ["Web", "JavaScript", "HTML/CSS", "Flutter/Dart", "API"],
+      links: [],
+      image: "/photos/keva.jpg",
+      video: "",
+    },
+  ],
+  hackathons: [],
+} as const;
